@@ -1,14 +1,22 @@
 node_modules/**/*
-.expo/*
-npm-debug.*
-*.jks
-*.p8
-*.p12
-*.key
-*.mobileprovision
-*.orig.*
-web-build/
-web-report/
 
 # macOS
 .DS_Store
+
+# Xcode
+#
+build/
+xcuserdata
+*.xcuserstate
+
+# Android/IJ
+#
+*.iml
+.idea
+.gradle
+local.properties
+*.keystore
+!debug.keystore
+
+# Pods
+ios/Pods/
