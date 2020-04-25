@@ -13,7 +13,7 @@ const TABLE_HEAD = [
   "Half Marathon",
   "Marathon"
 ];
-const COL_WIDTHS = [70, 70, 80, 80, 80, 80];
+const COL_WIDTHS = [65, 65, 80, 80, 80, 80];
 
 const ChartScreen = () => (
   <View style={styles.container}>
