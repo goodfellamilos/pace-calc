@@ -6,7 +6,7 @@ import colors from "../../constants/colors";
 const TableIcon = props => (
   <FontAwesome
     name="table"
-    size={28}
+    size={25}
     color={props.focused ? colors.moderatePink : colors.gray}
   />
 );

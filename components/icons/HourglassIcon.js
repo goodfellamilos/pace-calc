@@ -6,7 +6,7 @@ import colors from "../../constants/colors";
 const HourglassIcon = props => (
   <Ionicons
     name="ios-hourglass"
-    size={28}
+    size={25}
     color={props.focused ? colors.moderatePink : colors.gray}
   />
 );
