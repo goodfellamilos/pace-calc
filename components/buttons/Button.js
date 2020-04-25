@@ -1,5 +1,5 @@
 import React from "react";
-import { StyleSheet } from "react-native";
+import { Keyboard, StyleSheet } from "react-native";
 
 import StyledText from "../texts/StyledText";
 import PressableItem from "./PressableItem";
@@ -10,7 +10,10 @@ const Button = props => (
   <PressableItem
     style={[styles.button, props.disabled && styles.disabled]}
     disabled={props.disabled}
-    onPress={props.onPress}
+    onPress={() => {
+      Keyboard.dismiss();
+      props.onPress();
+    }}
   >
     <StyledText style={styles.text}>{props.text}</StyledText>
   </PressableItem>
