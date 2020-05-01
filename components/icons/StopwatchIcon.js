@@ -1,10 +1,10 @@
 import React from "react";
-import { Entypo } from "@expo/vector-icons";
+import Icon from "react-native-vector-icons/Entypo";
 
 import colors from "../../constants/colors";
 
 const StopwatchIcon = props => (
-  <Entypo
+  <Icon
     name="stopwatch"
     size={25}
     color={props.focused ? colors.moderatePink : colors.gray}

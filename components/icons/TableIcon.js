@@ -1,10 +1,10 @@
 import React from "react";
-import { FontAwesome } from "@expo/vector-icons";
+import Icon from "react-native-vector-icons/FontAwesome";
 
 import colors from "../../constants/colors";
 
 const TableIcon = props => (
-  <FontAwesome
+  <Icon
     name="table"
     size={25}
     color={props.focused ? colors.moderatePink : colors.gray}
