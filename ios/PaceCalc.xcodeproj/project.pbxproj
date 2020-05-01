@@ -17,11 +17,11 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* PaceCalcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* PaceCalcTests.m */; };
+		4B2A39A782CA4C959C0C8742 /* SpaceMono-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C922DDCC06142269287EC7B /* SpaceMono-Bold.ttf */; };
 		7529CCBA78A2902F26771B72 /* libPods-PaceCalc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6368CA7E297F1106641F6C3E /* libPods-PaceCalc.a */; };
+		B0849572ACAC4DD99495730E /* SpaceMono-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F50C936251B040B6B8BF8993 /* SpaceMono-Regular.ttf */; };
 		DF519999A5750068E4BB04BD /* libPods-PaceCalc-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1667A469C2F16C328127FD92 /* libPods-PaceCalc-tvOS.a */; };
 		E30DE4FCABA182A1F8079197 /* libPods-PaceCalc-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9868B3EC1F598E630783C61D /* libPods-PaceCalc-tvOSTests.a */; };
-		4B2A39A782CA4C959C0C8742 /* SpaceMono-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C922DDCC06142269287EC7B /* SpaceMono-Bold.ttf */; };
-		B0849572ACAC4DD99495730E /* SpaceMono-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F50C936251B040B6B8BF8993 /* SpaceMono-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +47,7 @@
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* PaceCalcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaceCalcTests.m; sourceTree = "<group>"; };
 		0241961A2CA7DC33A81BC151 /* Pods-PaceCalc-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaceCalc-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-PaceCalc-tvOSTests/Pods-PaceCalc-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0C922DDCC06142269287EC7B /* SpaceMono-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = file; name = "SpaceMono-Bold.ttf"; path = "../src/assets/fonts/SpaceMono-Bold.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* PaceCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaceCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = PaceCalc/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = PaceCalc/AppDelegate.m; sourceTree = "<group>"; };
@@ -67,10 +68,9 @@
 		D2B8CF6BFE25067CA0F91A49 /* Pods-PaceCalc-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaceCalc-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-PaceCalc-tvOSTests/Pods-PaceCalc-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		F50C936251B040B6B8BF8993 /* SpaceMono-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = file; name = "SpaceMono-Regular.ttf"; path = "../src/assets/fonts/SpaceMono-Regular.ttf"; sourceTree = "<group>"; };
 		F8B13B395D87A19448DB52B8 /* Pods-PaceCalc-PaceCalcTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaceCalc-PaceCalcTests.debug.xcconfig"; path = "Target Support Files/Pods-PaceCalc-PaceCalcTests/Pods-PaceCalc-PaceCalcTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FE56496C7576867236EF70F7 /* Pods-PaceCalc-PaceCalcTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaceCalc-PaceCalcTests.release.xcconfig"; path = "Target Support Files/Pods-PaceCalc-PaceCalcTests/Pods-PaceCalc-PaceCalcTests.release.xcconfig"; sourceTree = "<group>"; };
-		0C922DDCC06142269287EC7B /* SpaceMono-Bold.ttf */ = {isa = PBXFileReference; name = "SpaceMono-Bold.ttf"; path = "../assets/fonts/SpaceMono-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		F50C936251B040B6B8BF8993 /* SpaceMono-Regular.ttf */ = {isa = PBXFileReference; name = "SpaceMono-Regular.ttf"; path = "../assets/fonts/SpaceMono-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,14 +203,13 @@
 			sourceTree = "<group>";
 		};
 		D219DC68E4B4440CAD1EA3BA /* Resources */ = {
-			isa = "PBXGroup";
+			isa = PBXGroup;
 			children = (
 				0C922DDCC06142269287EC7B /* SpaceMono-Bold.ttf */,
 				F50C936251B040B6B8BF8993 /* SpaceMono-Regular.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 
