@@ -33,7 +33,7 @@ const styles = StyleSheet.create({
     opacity: 0.7
   },
   text: {
-    fontFamily: "space-mono-bold",
+    fontFamily: "SpaceMono-Bold",
     textAlign: "center"
   }
 });

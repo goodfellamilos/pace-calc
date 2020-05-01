@@ -12,6 +12,6 @@ export default StyledText;
 const styles = StyleSheet.create({
   text: {
     color: colors.veryLightGray,
-    fontFamily: "space-mono"
+    fontFamily: "SpaceMono-Regular"
   }
 });

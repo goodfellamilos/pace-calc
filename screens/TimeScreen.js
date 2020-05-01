@@ -391,7 +391,7 @@ const styles = StyleSheet.create({
     marginRight: 6
   },
   result: {
-    fontFamily: "space-mono-bold",
+    fontFamily: "SpaceMono-Bold",
     fontSize: 32,
     textAlign: "center"
   }

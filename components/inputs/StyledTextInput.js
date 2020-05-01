@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
     borderRadius: 4,
     borderWidth: 1,
     color: colors.veryLightGray,
-    fontFamily: "space-mono",
+    fontFamily: "SpaceMono-Regular",
     padding: 10,
     textAlign: "center",
     width: 50

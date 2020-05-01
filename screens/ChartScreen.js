@@ -62,7 +62,7 @@ const styles = StyleSheet.create({
   },
   text: {
     color: colors.veryLightGray,
-    fontFamily: "space-mono",
+    fontFamily: "SpaceMono-Regular",
     textAlign: "center"
   },
   border: {
@@ -73,14 +73,14 @@ const styles = StyleSheet.create({
     height: 50
   },
   headText: {
-    fontFamily: "space-mono-bold"
+    fontFamily: "SpaceMono-Bold"
   },
   row: {
     flexDirection: "row",
     height: 40
   },
   cellTextHighlighted: {
-    fontFamily: "space-mono-bold",
+    fontFamily: "SpaceMono-Bold",
     color: colors.moderatePink
   }
 });
