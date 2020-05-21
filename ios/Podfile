@@ -94,12 +94,3 @@ target 'PaceCalc' do
     flipper_post_install(installer)
   end
 end
-
-target 'PaceCalc-tvOS' do
-  # Pods for PaceCalc-tvOS
-
-  target 'PaceCalc-tvOSTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-end
