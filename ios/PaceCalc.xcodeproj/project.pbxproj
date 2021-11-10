@@ -3,59 +3,40 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* PaceCalcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* PaceCalcTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
-		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		163ED68135070306712CE4DD /* libPods-PaceCalc-PaceCalcTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C25651E3D3AD28BE2BA16283 /* libPods-PaceCalc-PaceCalcTests.a */; };
+        81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+        92733A40E4341AB5AFCBE4BB /* libPods-PaceCalc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6319DCC803851DB0F6747971 /* libPods-PaceCalc.a */; };
+        B69F6F48BBFB381584D021F3 /* libPods-PaceCalc-PaceCalcTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E7EE4169BD940D39F0A0DCCF /* libPods-PaceCalc-PaceCalcTests.a */; };
 		4B2A39A782CA4C959C0C8742 /* SpaceMono-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C922DDCC06142269287EC7B /* SpaceMono-Bold.ttf */; };
-		7529CCBA78A2902F26771B72 /* libPods-PaceCalc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6368CA7E297F1106641F6C3E /* libPods-PaceCalc.a */; };
 		B0849572ACAC4DD99495730E /* SpaceMono-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F50C936251B040B6B8BF8993 /* SpaceMono-Regular.ttf */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = PaceCalc;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		00E356EE1AD99517003FC87E /* PaceCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaceCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* PaceCalcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaceCalcTests.m; sourceTree = "<group>"; };
-		0241961A2CA7DC33A81BC151 /* Pods-PaceCalc-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaceCalc-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-PaceCalc-tvOSTests/Pods-PaceCalc-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		0C922DDCC06142269287EC7B /* SpaceMono-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = file; name = "SpaceMono-Bold.ttf"; path = "../src/assets/fonts/SpaceMono-Bold.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* PaceCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaceCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = PaceCalc/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = PaceCalc/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = PaceCalc/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = PaceCalc/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = PaceCalc/main.m; sourceTree = "<group>"; };
-		1667A469C2F16C328127FD92 /* libPods-PaceCalc-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PaceCalc-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3DCA5E4E44A809EE6510FBC3 /* Pods-PaceCalc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaceCalc.release.xcconfig"; path = "Target Support Files/Pods-PaceCalc/Pods-PaceCalc.release.xcconfig"; sourceTree = "<group>"; };
-		53023BC1F95A3C2438298AF7 /* Pods-PaceCalc-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaceCalc-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-PaceCalc-tvOS/Pods-PaceCalc-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		557E28783DEA626C3211907D /* Pods-PaceCalc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaceCalc.debug.xcconfig"; path = "Target Support Files/Pods-PaceCalc/Pods-PaceCalc.debug.xcconfig"; sourceTree = "<group>"; };
-		6368CA7E297F1106641F6C3E /* libPods-PaceCalc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PaceCalc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9868B3EC1F598E630783C61D /* libPods-PaceCalc-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PaceCalc-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9CF4359D5993C3BEE5BC33C /* Pods-PaceCalc-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaceCalc-tvOS.release.xcconfig"; path = "Target Support Files/Pods-PaceCalc-tvOS/Pods-PaceCalc-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		C25651E3D3AD28BE2BA16283 /* libPods-PaceCalc-PaceCalcTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PaceCalc-PaceCalcTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2B8CF6BFE25067CA0F91A49 /* Pods-PaceCalc-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaceCalc-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-PaceCalc-tvOSTests/Pods-PaceCalc-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+        51DDC52BB11F247A38D330A5 /* Pods-PaceCalc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaceCalc.debug.xcconfig"; path = "Target Support Files/Pods-PaceCalc/Pods-PaceCalc.debug.xcconfig"; sourceTree = "<group>"; };
+        6319DCC803851DB0F6747971 /* libPods-PaceCalc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PaceCalc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+        724F2BC7C97CE50C0F57478D /* Pods-PaceCalc-PaceCalcTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaceCalc-PaceCalcTests.debug.xcconfig"; path = "Target Support Files/Pods-PaceCalc-PaceCalcTests/Pods-PaceCalc-PaceCalcTests.debug.xcconfig"; sourceTree = "<group>"; };
+        81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = PaceCalc/LaunchScreen.storyboard; sourceTree = "<group>"; };
+        C4B4AD1F94CFC5C0FE3BAA50 /* Pods-PaceCalc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaceCalc.release.xcconfig"; path = "Target Support Files/Pods-PaceCalc/Pods-PaceCalc.release.xcconfig"; sourceTree = "<group>"; };
+        C904101816ED5721CF5ADEB8 /* Pods-PaceCalc-PaceCalcTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaceCalc-PaceCalcTests.release.xcconfig"; path = "Target Support Files/Pods-PaceCalc-PaceCalcTests/Pods-PaceCalc-PaceCalcTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		F50C936251B040B6B8BF8993 /* SpaceMono-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = file; name = "SpaceMono-Regular.ttf"; path = "../src/assets/fonts/SpaceMono-Regular.ttf"; sourceTree = "<group>"; };
-		F8B13B395D87A19448DB52B8 /* Pods-PaceCalc-PaceCalcTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaceCalc-PaceCalcTests.debug.xcconfig"; path = "Target Support Files/Pods-PaceCalc-PaceCalcTests/Pods-PaceCalc-PaceCalcTests.debug.xcconfig"; sourceTree = "<group>"; };
-		FE56496C7576867236EF70F7 /* Pods-PaceCalc-PaceCalcTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaceCalc-PaceCalcTests.release.xcconfig"; path = "Target Support Files/Pods-PaceCalc-PaceCalcTests/Pods-PaceCalc-PaceCalcTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				163ED68135070306712CE4DD /* libPods-PaceCalc-PaceCalcTests.a in Frameworks */,
+                B69F6F48BBFB381584D021F3 /* libPods-PaceCalc-PaceCalcTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,7 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7529CCBA78A2902F26771B72 /* libPods-PaceCalc.a in Frameworks */,
+				92733A40E4341AB5AFCBE4BB /* libPods-PaceCalc.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,12 +79,11 @@
 		13B07FAE1A68108700A75B9A /* PaceCalc */ = {
 			isa = PBXGroup;
 			children = (
-				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
-				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
 			name = PaceCalc;
@@ -113,26 +93,18 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				6368CA7E297F1106641F6C3E /* libPods-PaceCalc.a */,
-				C25651E3D3AD28BE2BA16283 /* libPods-PaceCalc-PaceCalcTests.a */,
-				1667A469C2F16C328127FD92 /* libPods-PaceCalc-tvOS.a */,
-				9868B3EC1F598E630783C61D /* libPods-PaceCalc-tvOSTests.a */,
+                E7EE4169BD940D39F0A0DCCF /* libPods-PaceCalc-PaceCalcTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		382EC24F000FB6A8CF3E77AF /* Pods */ = {
+		7076AFA54A6D98E31BDDF3AD /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				557E28783DEA626C3211907D /* Pods-PaceCalc.debug.xcconfig */,
-				3DCA5E4E44A809EE6510FBC3 /* Pods-PaceCalc.release.xcconfig */,
-				F8B13B395D87A19448DB52B8 /* Pods-PaceCalc-PaceCalcTests.debug.xcconfig */,
-				FE56496C7576867236EF70F7 /* Pods-PaceCalc-PaceCalcTests.release.xcconfig */,
-				53023BC1F95A3C2438298AF7 /* Pods-PaceCalc-tvOS.debug.xcconfig */,
-				B9CF4359D5993C3BEE5BC33C /* Pods-PaceCalc-tvOS.release.xcconfig */,
-				0241961A2CA7DC33A81BC151 /* Pods-PaceCalc-tvOSTests.debug.xcconfig */,
-				D2B8CF6BFE25067CA0F91A49 /* Pods-PaceCalc-tvOSTests.release.xcconfig */,
+                51DDC52BB11F247A38D330A5 /* Pods-PaceCalc.debug.xcconfig */,
+                C4B4AD1F94CFC5C0FE3BAA50 /* Pods-PaceCalc.release.xcconfig */,
+                724F2BC7C97CE50C0F57478D /* Pods-PaceCalc-PaceCalcTests.debug.xcconfig */,
+                C904101816ED5721CF5ADEB8 /* Pods-PaceCalc-PaceCalcTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -152,7 +124,7 @@
 				00E356EF1AD99517003FC87E /* PaceCalcTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				382EC24F000FB6A8CF3E77AF /* Pods */,
+				7076AFA54A6D98E31BDDF3AD /* Pods */,
 				D219DC68E4B4440CAD1EA3BA /* Resources */,
 			);
 			indentWidth = 2;
@@ -185,11 +157,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "PaceCalcTests" */;
 			buildPhases = (
-				EED991A339BCBAA78DBCDBC1 /* [CP] Check Pods Manifest.lock */,
+				963F6F8F28FC7D15E1240737 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				5604F38CD542CFEC1B7A70FF /* [CP] Copy Pods Resources */,
+		        35CC43FAEBCA9AC254B13C01 /* [CP] Embed Pods Frameworks */,
+				662D824608DAB165D8B96633 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -205,13 +178,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "PaceCalc" */;
 			buildPhases = (
-				4EDCAE8FF3AAC3A3153EBDBA /* [CP] Check Pods Manifest.lock */,
+				B5A649DC7F18A20387B3B962 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				4382411FA8BF9E35761D0A4D /* [CP] Copy Pods Resources */,
+				6199404528CDC4DC96FA1EFF /* [CP] Embed Pods Frameworks */,
+                CDF40195995BA84CB51B96B7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -228,7 +202,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1130;
+				LastUpgradeCheck = 1210;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
@@ -241,7 +215,7 @@
 				};
 			};
 			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "PaceCalc" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -271,8 +245,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 				4B2A39A782CA4C959C0C8742 /* SpaceMono-Bold.ttf in Resources */,
 				B0849572ACAC4DD99495730E /* SpaceMono-Regular.ttf in Resources */,
 			);
@@ -281,19 +255,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+		35CC43FAEBCA9AC254B13C01 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
+			inputFileListPaths = (
+                "${PODS_ROOT}/Target Support Files/Pods-PaceCalc-PaceCalcTests/Pods-PaceCalc-PaceCalcTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "Bundle React Native code and images";
-			outputPaths = (
+            name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			    "${PODS_ROOT}/Target Support Files/Pods-PaceCalc-PaceCalcTests/Pods-PaceCalc-PaceCalcTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PaceCalc-PaceCalcTests/Pods-PaceCalc-PaceCalcTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 		4382411FA8BF9E35761D0A4D /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -343,26 +320,21 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PaceCalc/Pods-PaceCalc-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4EDCAE8FF3AAC3A3153EBDBA /* [CP] Check Pods Manifest.lock */ = {
+		6199404528CDC4DC96FA1EFF /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
+                "${PODS_ROOT}/Target Support Files/Pods-PaceCalc/Pods-PaceCalc-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PaceCalc-checkManifestLockResult.txt",
+                "${PODS_ROOT}/Target Support Files/Pods-PaceCalc/Pods-PaceCalc-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PaceCalc/Pods-PaceCalc-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		5604F38CD542CFEC1B7A70FF /* [CP] Copy Pods Resources */ = {
@@ -413,28 +385,6 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PaceCalc-PaceCalcTests/Pods-PaceCalc-PaceCalcTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EED991A339BCBAA78DBCDBC1 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PaceCalc-PaceCalcTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -451,29 +401,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+            shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+            showEnvVarsInLog = 0;
+		};
+		B5A649DC7F18A20387B3B962 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+                "${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+                "$(DERIVED_FILE_DIR)/Pods-PaceCalc-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		00E356EA1AD99517003FC87E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				00E356F31AD99517003FC87E /* PaceCalcTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		13B07F871A680F5B00A75B9A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
-				13B07FC11A68108700A75B9A /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -484,22 +439,10 @@
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		13B07FB11A68108700A75B9A /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				13B07FB21A68108700A75B9A /* Base */,
-			);
-			name = LaunchScreen.xib;
-			path = PaceCalc;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F8B13B395D87A19448DB52B8 /* Pods-PaceCalc-PaceCalcTests.debug.xcconfig */;
+			baseConfigurationReference = 724F2BC7C97CE50C0F57478D /* Pods-PaceCalc-PaceCalcTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -507,8 +450,12 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = PaceCalcTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+                IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+                LD_RUNPATH_SEARCH_PATHS = (
+                    "$(inherited)",
+                    "@executable_path/Frameworks",
+                    "@loader_path/Frameworks",
+                );
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -522,13 +469,17 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FE56496C7576867236EF70F7 /* Pods-PaceCalc-PaceCalcTests.release.xcconfig */;
+			baseConfigurationReference = C904101816ED5721CF5ADEB8 /* Pods-PaceCalc-PaceCalcTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = PaceCalcTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+                IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+                LD_RUNPATH_SEARCH_PATHS = (
+                    "$(inherited)",
+                    "@executable_path/Frameworks",
+                    "@loader_path/Frameworks",
+                );
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -542,20 +493,19 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 557E28783DEA626C3211907D /* Pods-PaceCalc.debug.xcconfig */;
+			baseConfigurationReference = 51DDC52BB11F247A38D330A5 /* Pods-PaceCalc.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GPV88H62L3;
 				ENABLE_BITCODE = NO;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"$(inherited)",
-					"FB_SONARKIT_ENABLED=1",
-				);
 				INFOPLIST_FILE = PaceCalc/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+                LD_RUNPATH_SEARCH_PATHS = (
+                    "$(inherited)",
+                    "@executable_path/Frameworks",
+                );
 				MARKETING_VERSION = 1.0.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -573,15 +523,18 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3DCA5E4E44A809EE6510FBC3 /* Pods-PaceCalc.release.xcconfig */;
-			buildSettings = {
+			baseConfigurationReference = C4B4AD1F94CFC5C0FE3BAA50 /* Pods-PaceCalc.release.xcconfig */;
+            buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GPV88H62L3;
 				INFOPLIST_FILE = PaceCalc/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+                LD_RUNPATH_SEARCH_PATHS = (
+                    "$(inherited)",
+                    "@executable_path/Frameworks",
+                );
 				MARKETING_VERSION = 1.0.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -619,6 +572,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -628,6 +582,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+                "EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -643,9 +598,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+			    IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+                    LD_RUNPATH_SEARCH_PATHS = (
+                        /usr/lib/swift,
+                        "$(inherited)",
+                    );
 				LIBRARY_SEARCH_PATHS = (
+                    "\"$(SDKROOT)/usr/lib/swift\"",
 					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
 					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
 					"\"$(inherited)\"",
@@ -679,6 +638,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+                CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -688,6 +648,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+                "EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -696,8 +657,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+                IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+                LD_RUNPATH_SEARCH_PATHS = (
+                    /usr/lib/swift,
+                    "$(inherited)",
+                );
 				LIBRARY_SEARCH_PATHS = (
 					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
 					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
